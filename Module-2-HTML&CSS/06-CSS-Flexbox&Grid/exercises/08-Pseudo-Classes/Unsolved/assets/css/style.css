@@ -65,6 +65,27 @@ article ul {
   list-style: circle;
 }
 
+.resources li {
+  display: none;
+}
+
+.resources:hover li {
+  display: block;
+}
+
+.resources h3 {
+  font-size: 150%;
+}
+
+li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+li a {
+  text-decoration: none;
+}
+
 aside {
   width: 25%;
 }
