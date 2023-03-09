@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   flex-direction: column;
@@ -66,6 +67,13 @@ span[data-description]{
   color: black;
   cursor: grab;
 }
+span[data-variable]{
+  position: relative;
+  text-decoration: underline;
+  color: black;
+  cursor: grab;
+}
+
 /* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
 span[data-description]:hover::after{
   content: attr(data-description);

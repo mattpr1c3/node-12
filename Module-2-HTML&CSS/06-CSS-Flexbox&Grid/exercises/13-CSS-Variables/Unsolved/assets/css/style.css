@@ -35,7 +35,7 @@ nav {
 }
 
 nav a {
-  color: #13293d;
+  color: var(--dark-blue);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -73,6 +73,7 @@ footer {
   border-style: solid;
   border-width: 1px;
   border-radius: var(--bR);
+  border-radius: var(--bR);
   padding: 10px;
   flex: 0 0 300px;
   transform: rotate(8deg);
@@ -81,6 +82,7 @@ footer {
 }
 
 .card > header {
+  border-radius: var(--bR) var(--bR) 0px 0px;
   border-radius: var(--bR) var(--bR) 0px 0px;
   padding: 20px;
 }
