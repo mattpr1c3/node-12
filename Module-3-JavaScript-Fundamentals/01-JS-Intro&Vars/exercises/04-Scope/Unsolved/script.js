@@ -1,5 +1,5 @@
-// TODO: Declare variable 'shout' with the value 'Shout' so it's available to `justShout` and `shoutItAllOut` functions
-let shout = "Shout";
+// TODO: Declare letiable 'shout' with the value 'Shout' so it's available to `justShout` and `shoutItAllOut` functions
+const shout = "Shout";
 
 function justShout() {
   console.log(shout + ", " + shout);
@@ -14,10 +14,10 @@ function shoutItAllOut() {
 justShout();
 shoutItAllOut();
 
-// TODO: Declare variable 'animal' with the value 'Tigers' so it is only available to the 'sayTigers' function
+// TODO: Declare letiable 'animal' with the value 'Tigers' so it is only available to the 'sayTigers' function
 
 function sayLions() {
-  var animal = "Lions"; 
+  let animal = "Lions"; 
   console.log(animal);
   return;
 }
@@ -28,10 +28,11 @@ function sayTigers() {
   return;
 }
 
-// TODO: The variable 'bears' should only declared once and 'sayBears' should return "Bears! OH MY!". 
-var bears = "Bears";
+// TODO: The letiable 'bears' should only declared once and 'sayBears' should return "Bears! OH MY!". 
+const bears = "Bears";
 
 function sayBears() {
+    let bears = "Pandas";
     console.log(bears + "! OH MY!");
     return;
 }
@@ -40,12 +41,12 @@ sayLions();
 sayTigers();
 sayBears();
 
-// TODO: The variable 'sing' should be declared once in the local scope.
+// TODO: The letiable 'sing' should be declared once in the local scope.
 
 function singAlong() {
-  var sing = "Sing"; 
+  let sing = "Sing"; 
   console.log(sing + ",");
-  var singASong = function () {
+  let singASong = function () {
     console.log(sing + " a Song.");
   };
   singASong();
