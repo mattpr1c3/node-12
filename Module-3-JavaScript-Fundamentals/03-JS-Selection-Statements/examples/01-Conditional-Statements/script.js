@@ -11,7 +11,7 @@ if (hungerLevel >= 50) {
 
 // Evaluates to false so nothing is logged
 if (hungerLevel < 50) {
-  console.log("Hungry!");
+  console.log("Not Hungry!");
 }
 
 // Else statement 
