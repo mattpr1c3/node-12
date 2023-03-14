@@ -6,7 +6,7 @@ const student = {
 
 // using for...in
 for ( let key in student ) {
-
+let val = student[key]
     // display the properties
-    console.log(`${key} => ${student[key]}`);
+    console.log(`${key} => ${student[val]}`);
 }
