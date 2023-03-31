@@ -1,7 +1,7 @@
 import React from 'react';
 
 // TODO: Add a comment explaining what is being passed to this "child" component as props
-
+// the count handles are being passed as props
 function CardBody(props) {
   return (
     <div className="card-body">
@@ -19,6 +19,13 @@ function CardBody(props) {
         onClick={props.handleDecrement}
       >
         Decrement
+      </button>{' '}
+      <button
+        type="button"
+        className="btn btn-danger"
+        onClick={props.handleMultiply}
+      >
+        Multiply
       </button>
     </div>
   );
